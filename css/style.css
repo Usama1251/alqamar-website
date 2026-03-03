@@ -20,8 +20,19 @@ body {
     background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
                 url('../images/home.jpeg') no-repeat center center;
     background-size: cover;
+    min-height: 100vh;
+    padding-top: 100px;   /* navbar space */
+    padding-bottom: 60px;
 }
 
+.hero-content {
+    margin-top: 40px;
+}
+
+/* Buttons spacing mobile fix */
+.hero .btn {
+    margin-top: 15px;
+}
 .section-title {
     font-weight: 700;
     margin-bottom: 20px;
@@ -113,4 +124,31 @@ body {
 .services-section .section-title {
     color: #0a1f44;
     font-weight: 700;
+}
+/* Footer Styling */
+.footer-section {
+    background: linear-gradient(90deg, #0a1f44, #000000);
+}
+
+.footer-section p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #c9a227;
+}
+
+.footer-line {
+    border-color: rgba(255,255,255,0.1);
+}
+
+.text-gold {
+    color: #c9a227;
 }

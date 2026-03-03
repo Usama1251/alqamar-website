@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(to bottom, #f4f7fc, #e9eef7);
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background: transparent;
+    padding: 7px 0;
+    transition: 0.4s;
+}
+
+.navbar.scrolled {
+    background: linear-gradient(90deg, #0a1f44, #000000);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+                url('../images/home.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn-gold {
+    background: #c9a227;
+    color: white;
+}
+
+.btn-gold:hover {
+    background: #a8831f;
+}
+
+.service-box {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+.logo {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: black !important;   /* navbar color same */
+}
+
+.achievements-section {
+    background: linear-gradient(90deg, #0a1f44, #000000);
+}
+
+.achievements-section h1 {
+    font-size: 40px;
+    color: #c9a227;
+    font-weight: 700;
+}
+
+.achievements-section p {
+    font-size: 15px;
+}
+.about-section {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+.about-img {
+    border-radius: 15px;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.about-section h2 {
+    font-size: 36px;
+}
+
+.about-section p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.text-gold {
+    color: #c9a227;
+}
+/* Services Section Professional Background */
+.services-section {
+    background: linear-gradient(135deg, #eef2f9, #e3eaf6);
+}
+
+/* Service Card Styling */
+.service-box {
+    background: white;
+    padding: 40px 25px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.service-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+
+/* Section Title */
+.services-section .section-title {
+    color: #0a1f44;
+    font-weight: 700;
+}
